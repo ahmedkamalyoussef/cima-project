@@ -34,7 +34,7 @@ function Signin() {
    return (
      <>
        <h1 className='mb-2'>Login</h1>
-       <form className='frm' onSubmit={post}>
+       <form className='frm' >
          <label htmlFor="email">Email</label>
          <input autoComplete='true' onChange={getFormData} type="email" className='form-control my-2' name='email' id='email' />
          <label htmlFor="password">Password</label>

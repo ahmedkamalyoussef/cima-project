@@ -37,7 +37,7 @@ function Signup() {
   return (
     <>
       <h1 className='mb-2'>Registrasion</h1>
-      <form className='frm' onSubmit={post}>
+      <form className='frm' >
         <label htmlFor="name">First Name</label>
         <input autoComplete='true' onChange={getFormData} type="text" className='form-control my-2' name='first_name' id='first_name' />
         {/* <label htmlFor="last_name">Last Name</label> */}

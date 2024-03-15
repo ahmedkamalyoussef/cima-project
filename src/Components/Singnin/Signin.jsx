@@ -18,19 +18,19 @@ function Signin() {
      })
     }
  
-    async function post(e){
-        e.preventDefault();
-        let response=await postData(FormData,'signin');
-        if(response.message=='success')
-        {
-            navigate('/home')
-         }
-         else{
-        //  setLoading(true);
-         // setErrors(response.AxiosError["message"])
-     }
-     console.log(Errors);
- }
+//     async function post(e){
+//         e.preventDefault();
+//         let response=await postData(FormData,'signin');
+//         if(response.message=='success')
+//         {
+//             navigate('/home')
+//          }
+//          else{
+//         //  setLoading(true);
+//          // setErrors(response.AxiosError["message"])
+//      }
+//      console.log(Errors);
+//  }
    return (
      <>
        <h1 className='mb-2'>Login</h1>

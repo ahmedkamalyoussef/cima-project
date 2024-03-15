@@ -21,19 +21,19 @@ function Signup() {
     })
    }
 
-   async function post(e){
-       e.preventDefault();
-       let response=await postData(FormData);
-       if(response.message=='success')
-        {      
-          navigate('/signin')
-        }
-        else{
-        setLoading(true);
-        // setErrors(response.AxiosError["message"])
-    }
-    console.log(Errors);
-}
+//    async function post(e){
+//        e.preventDefault();
+//        let response=await postData(FormData);
+//        if(response.message=='success')
+//         {      
+//           navigate('/signin')
+//         }
+//         else{
+//         setLoading(true);
+//         // setErrors(response.AxiosError["message"])
+//     }
+//     console.log(Errors);
+// }
   return (
     <>
       <h1 className='mb-2'>Registrasion</h1>
